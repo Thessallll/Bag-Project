@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.product-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail-images {
+    display: flex;
+    margin-top: 15px;
+}
+
+.thumbnail-images img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.product-details {
+    flex: 1.5;
+}
+
+.product-details h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.store-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.stars {
+    color: #ffd700;
+    font-size: 18px;
+}
+
+.reviews {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #555;
+}
+
+.pricing {
+    margin: 15px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 18px;
+}
+
+.new-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e60023;
+}
+
+.discount {
+    color: #28a745;
+    font-size: 18px;
+}
+
+.about-item h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.about-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-item ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.actions {
+    margin: 20px 0;
+}
+
+.actions input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compare {
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.share {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.share span {
+    margin-right: 10px;
+}
+
+.share a img {
+    width: 30px;
+    margin-right: 10px;
+}
